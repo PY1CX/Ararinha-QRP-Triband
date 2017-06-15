@@ -9,6 +9,8 @@ Already tested in this project:
 - Microphone Pre-Amplifier
 - LM386 Audio Output
 
+Note on current version of the board:
+
 Note on RF Switching: I found that the MASWSS0136TR is a better RF Switch for the project than the one in the PCB, going for it. Less expensive and doesn't have the 50 ohm termination that could ruin the project impedances.  
 
 Note on RF transistors: I started building the project with 2n3904 but I'm going to switch to the 2SC4915 that are in use in newer radios and have better specifications on RF. Decided on them because I wanna beat the record for Ararinha design, using it on 15m and later on 
