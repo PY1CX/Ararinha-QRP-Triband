@@ -8,6 +8,7 @@ You can find the correct values of the BPF for 40/20/15m bands on the RFSim99 fi
 * IF
 * Microphone Pre-Amplifier
 * LM386 Audio Output
+* XTAL Filter
 
 ### Note on current version of the board:
 
