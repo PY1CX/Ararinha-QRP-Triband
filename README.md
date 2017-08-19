@@ -19,7 +19,7 @@ You can find the correct values of the BPF for 40/20/15m bands on the RFSim99 fi
 
 * LM386 amplifier circuit: There is a missing electrolytic capacitor between the LM386 pin 5 and the Headphone output. Can be any capacitor from 10uf to 470uf with at least 16v.
 
-* The 78L05 on the V1.0 board has pin 1 and pin 3 changed. Need to correct it on revision 2.0
+* The 78L05 on the V1.0 board has pin 1 and pin 3 changed. Correct on V2.0 schematic
 
 ### A 3D preview of the 4 layer board for the Ararinha 6 Project
 ![Preview](https://github.com/PY1CX/Ararinha-QRP-Triband/raw/master/ArarinhaPCB3D.png)
