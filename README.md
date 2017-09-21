@@ -23,6 +23,8 @@ You can find the correct values of the BPF for 40/20/15m bands on the RFSim99 fi
 
 * 4:1 xformer is inverted in both RF Mixer and RF Pre sheets. Needs to be corrected. In V1.0 you can just rotate it 180 degrees.
 
+* R32 (2k2 resistor on RF Pre) is wrong placed, just replace it with a 0R resistor for V1.0 board
+
 
 ### A 3D preview of the 4 layer board for the Ararinha 6 Project
 ![Preview](https://github.com/PY1CX/Ararinha-QRP-Triband/raw/master/ArarinhaPCB3D.png)
