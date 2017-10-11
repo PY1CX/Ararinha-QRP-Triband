@@ -9,6 +9,7 @@ You can find the correct values of the BPF for 40/20/15m bands on the RFSim99 fi
 * Microphone Pre-Amplifier
 * LM386 Audio Output
 * XTAL Filter
+* BPF for 40m and 15m - Tested on MiniVNA Tiny
 
 ### Note on current version of the board:
 
@@ -19,11 +20,13 @@ You can find the correct values of the BPF for 40/20/15m bands on the RFSim99 fi
 
 * LM386 amplifier circuit: There is a missing electrolytic capacitor between the LM386 pin 5 and the Headphone output. Can be any capacitor from 10uf to 470uf with at least 16v.
 
-* The 78L05 on the V1.0 board has pin 1 and pin 3 changed. Correct on V2.0 schematic
+* The 78L05's on the V1.0 board has pin 1 and pin 3 changed. Corrected on V2.0 schematic
 
 * 4:1 xformer is inverted in both RF Mixer and RF Pre sheets. Needs to be corrected. In V1.0 you can just rotate it 180 degrees.
 
 * R32 (2k2 resistor on RF Pre) is wrong placed, just replace it with a 0R resistor for V1.0 board
+
+* CWKey isn't routed to any connector
 
 
 ### A 3D preview of the 4 layer board for the Ararinha 6 Project
